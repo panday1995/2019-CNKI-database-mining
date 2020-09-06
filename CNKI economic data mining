@@ -1,3 +1,4 @@
+'''python
 from collections import Iterable
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -117,3 +118,5 @@ path = (
 )
 
 data_df_screened.to_excel(path + indicator_list[0] + ".xlsx")
+
+'''
